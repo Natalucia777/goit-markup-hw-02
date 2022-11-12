@@ -29,8 +29,8 @@
 .list {
   list-style: none;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-text-color);
 }
 .top-tel {
@@ -38,6 +38,10 @@
 }
 .top-adress {
   color: var(--accent-text-color);
+}
+.top-adress:hover,
+.top-adress:focus {
+  color: var(--title-text-color);
 }
 /* hero */
 .hero {
@@ -79,6 +83,10 @@
 }
 .bottom-text {
   color: var(--bottom-text-color);
+}
+.bottom-text:hover,
+.bottom-text:focus {
+  color: var(--accent-text-color);
 }
 /* portfolio */
 .work {
