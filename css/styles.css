@@ -33,6 +33,9 @@
 .link:focus {
   color: var(--accent-text-color);
 }
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
 .top-tel {
   color: var(--primmary-text-color);
 }
