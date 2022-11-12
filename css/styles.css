@@ -2,13 +2,17 @@
   background-color: #ffffff;
   color: #212121;
 }
-/* header */
-.logo-span {
+/* logo */
+.logo-blue {
   color: #2196F3;
 }
-.logo-heder {
+.logo-top {
   color: #000000;
 }
+.logo-bottom {
+  color: #FFFFFF;
+}
+/* nav */
 .list {
   list-style: none;
 }
@@ -16,10 +20,10 @@
 .site-nav .link:focus {
   color: #2196F3;
 }
-.header-tel {
+.top-tel {
   color: #757575;
 }
-.header-adress {
+.top-adress {
   color: #2196F3;
 }
 
@@ -30,9 +34,10 @@
 .hero-title {
   color: #FFFFFF;
 }
-.hero-button {
+.hero-action {
   background-color: #2196F3;
   color: #FFFFFF;
+  cursor: pointer;
 }
 /* section */
 .section-title {
@@ -49,25 +54,26 @@
 .benefits {
   background-color: #F5F5F5;
 }
-.benefits-sub-title {
-
-}
 /* team */
 .team {
   background-color: #F5F4FA;;
 } 
 /* futter */
-footer {
+.bottom {
   background-color: #2F303A;
 }
-.logo-footer {
+.bottom-adress {
   color: #FFFFFF;
 }
-.footer-adress {
-  color: #FFFFFF;
-}
-.footer-text {
+.bottom-text {
   color: rgba(255, 255, 255, 0.6);
+}
+/* portfolio */
+.work {
+  background-color: #F5F5F5;
+}
+.list-action {
+  cursor: pointer;
 }
 /*  палитра цветов 
 
