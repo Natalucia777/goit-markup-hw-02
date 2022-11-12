@@ -73,6 +73,16 @@
   background-color: #F5F5F5;
 }
 .list-action {
+  background-color: #F5F4FA;
+  color: #212121;
+  cursor: pointer;
+
+}
+.list-action:hover,
+.list-action:focus,
+.list-action:active {
+  background-color: #2196F3;
+  color: #FFFFFF;
   cursor: pointer;
 }
 /*  палитра цветов 
