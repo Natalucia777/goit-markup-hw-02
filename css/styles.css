@@ -1,16 +1,29 @@
+:root {
+--primmary-text-color: #757575;
+--title-text-color: #212121;
+--accent-text-color: #2196F3;
+--background-page-color: #ffffff;
+--background-hero-color: #2F303A;
+--background-benefits-color: #F5F5F5;
+--team-action-color: #F5F4FA;
+--background-bottom-color: #2F303A;
+--background-work-color: #F5F5F5;
+--logo-top-color: #000000;
+--bottom-text-color: rgba(255, 255, 255, 0.6);
+}
 .page {
-  background-color: #ffffff;
-  color: #212121;
+  background-color: var(--background-page-color);
+  color: var(--title-text-color);
 }
 /* logo */
 .logo-blue {
-  color: #2196F3;
+  color: var(--accent-text-color);
 }
 .logo-top {
-  color: #000000;
+  color: var(--logo-top-color);
 }
 .logo-bottom {
-  color: #FFFFFF;
+  color: var(--background-page-color);
 }
 /* nav */
 .list {
@@ -18,78 +31,68 @@
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196F3;
+  color: var(--accent-text-color);
 }
 .top-tel {
-  color: #757575;
+  color: var(--primmary-text-color);
 }
 .top-adress {
-  color: #2196F3;
+  color: var(--accent-text-color);
 }
-
 /* hero */
 .hero {
-  background-color: #2F303A;
+  background-color: var(--background-hero-color);
 }
 .hero-title {
-  color: #FFFFFF;
+  color: var(--background-page-color);
 }
 .hero-action {
-  background-color: #2196F3;
-  color: #FFFFFF;
+  background-color: var(--accent-text-color);
+  color:var(--background-page-color);
   cursor: pointer;
 }
 /* section */
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .section-sub-title,
 .benefits-sub-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .text {
-  color: #757575;
+  color: var(--primmary-text-color);
 }
 /* benefits */
 .benefits {
-  background-color: #F5F5F5;
+  background-color: var(--background-benefits-color);
 }
 /* team */
 .team {
-  background-color: #F5F4FA;;
+  background-color: var(--team-action-color);
 } 
 /* futter */
 .bottom {
-  background-color: #2F303A;
+  background-color: var(--background-bottom-color);
 }
 .bottom-adress {
-  color: #FFFFFF;
+  color: var(--background-page-color);
 }
 .bottom-text {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--bottom-text-color);
 }
 /* portfolio */
 .work {
-  background-color: #F5F5F5;
+  background-color: var(--background-work-color);
 }
 .list-action {
-  background-color: #F5F4FA;
-  color: #212121;
+  background-color: var(--team-action-color);
+  color: var(--title-text-color);
   cursor: pointer;
-
 }
 .list-action:hover,
 .list-action:focus,
 .list-action:active {
-  background-color: #2196F3;
-  color: #FFFFFF;
+  background-color: var(--accent-text-color);
+  color:var(--background-page-color);
   cursor: pointer;
 }
-/*  палитра цветов 
-
-
-партфолио цвет кнопок #F5F4FA /#212121
-h3,подписи карточек #212121
-карточки p #757575
-футер телеыфон и емаил color: rgba(255, 255, 255, 0.6);
-*/
