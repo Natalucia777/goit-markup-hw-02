@@ -47,6 +47,10 @@
 .site-nav .link.current {
   color: var(--accent-text-color);
 }
+.list {
+  color: var(--title-text-color);
+  list-style: none;
+}
 .top-tel {
   color: var(--primmary-text-color);
 }
