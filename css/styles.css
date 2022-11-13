@@ -53,6 +53,10 @@
 .top-tel {
   color: var(--primmary-text-color);
 }
+.top-tel:hover,
+.top-tel:focus {
+  color: var(--accent-text-color);
+}
 .top-adress {
   color: var(--primmary-text-color);
 }
