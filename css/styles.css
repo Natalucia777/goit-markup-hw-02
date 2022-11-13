@@ -4,7 +4,6 @@
 --accent-text-color: #2196F3;
 --background-page-color: #ffffff;
 --background-hero-color: #2F303A;
---background-benefits-color: #F5F5F5;
 --team-action-color: #F5F4FA;
 --background-bottom-color: #2F303A;
 --logo-top-color: #000000;
@@ -132,10 +131,6 @@
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-}
-/* benefits */
-.benefits {
-  background-color: var(--background-benefits-color);
 }
 /* team */
 .team {
