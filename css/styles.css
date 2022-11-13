@@ -7,7 +7,6 @@
 --background-benefits-color: #F5F5F5;
 --team-action-color: #F5F4FA;
 --background-bottom-color: #2F303A;
---background-work-color: #F5F5F5;
 --logo-top-color: #000000;
 --bottom-text-color: rgba(255, 255, 255, 0.6);
 }
@@ -19,7 +18,6 @@
 /* logo */
 .logo {
   font-family: Raleway;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -38,6 +36,9 @@
 .list {
   color: var(--title-text-color);
   list-style: none;
+}
+.link {
+  color: var(--title-text-color);
 }
 .link:hover,
 .link:focus {
@@ -158,9 +159,6 @@
 }
 
 /* portfolio */
-.work {
-  background-color: var(--background-work-color);
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
