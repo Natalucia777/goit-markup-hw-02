@@ -110,13 +110,11 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .section-sub-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 .section-sub-title,
@@ -132,7 +130,6 @@
 .team .text {
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
 }
 /* team */
 .team {
@@ -178,7 +175,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
 }
