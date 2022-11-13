@@ -54,11 +54,11 @@
   color: var(--primmary-text-color);
 }
 .top-adress {
-  color: var(--accent-text-color);
+  color: var(--title-text-color);
 }
 .top-adress:hover,
 .top-adress:focus {
-  color: var(--title-text-color);
+  color: var(--accent-text-color);
 }
 .link,
 .top-adress,
@@ -97,14 +97,12 @@
 /* section */
 .section-title {
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .benefits-sub-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -187,7 +185,6 @@
   color:var(--background-page-color);
   }
 .work-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
