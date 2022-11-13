@@ -14,8 +14,19 @@
 .page {
   background-color: var(--background-page-color);
   color: var(--title-text-color);
+  font-family: Roboto , sans-serif;
+  font-style: normal;
 }
 /* logo */
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
 .logo-blue {
   color: var(--accent-text-color);
 }
@@ -26,7 +37,9 @@
   color: var(--background-page-color);
 }
 /* nav */
+
 .list {
+  color: var(--title-text-color);
   list-style: none;
 }
 .link:hover,
@@ -46,28 +59,77 @@
 .top-adress:focus {
   color: var(--title-text-color);
 }
+.link,
+.top-adress,
+.top-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
 /* hero */
 .hero {
   background-color: var(--background-hero-color);
 }
 .hero-title {
   color: var(--background-page-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .hero-action {
   background-color: var(--accent-text-color);
   color:var(--background-page-color);
-  cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 /* section */
 .section-title {
   color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
+.benefits-sub-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.section-sub-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
 .section-sub-title,
 .benefits-sub-title {
   color: var(--title-text-color);
 }
 .text {
   color: var(--primmary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.team .text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 /* benefits */
 .benefits {
@@ -81,16 +143,25 @@
 .bottom {
   background-color: var(--background-bottom-color);
 }
+.address-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
 .bottom-adress {
   color: var(--background-page-color);
+  
 }
 .bottom-text {
   color: var(--bottom-text-color);
+  text-decoration: none;
 }
 .bottom-text:hover,
 .bottom-text:focus {
   color: var(--accent-text-color);
 }
+
+
 /* portfolio */
 .work {
   background-color: var(--background-work-color);
@@ -110,12 +181,27 @@
 .list-action {
   background-color: var(--team-action-color);
   color: var(--title-text-color);
-  cursor: pointer;
+     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .list-action:hover,
 .list-action:focus,
 .list-action:active {
   background-color: var(--accent-text-color);
   color:var(--background-page-color);
-  cursor: pointer;
+  }
+.work-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
+.work-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
