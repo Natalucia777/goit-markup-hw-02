@@ -54,7 +54,7 @@
   color: var(--primmary-text-color);
 }
 .top-adress {
-  color: var(--title-text-color);
+  color: var(--primmary-text-color);
 }
 .top-adress:hover,
 .top-adress:focus {
